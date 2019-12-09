@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{DBF6AB6D-715E-48FA-B318-A9213BF75934}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{CE2C24DC-5DBA-431F-9880-35D15DA05BDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{F8048BAB-CA0E-4120-B6FC-A78676E76EA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity", "Entity", "{2F9B588B-106B-485B-A41F-85391586A907}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8DF9FA54-BCD6-41BB-BADD-5F189A9AD299}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{42A83690-8A49-47DD-B56B-F0EA244AC37C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Czar.Cms.Admin", "Czar.Cms.Admin\Czar.Cms.Admin.csproj", "{EDF4DD97-1256-4F8D-8BA5-512E38A48C83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDF4DD97-1256-4F8D-8BA5-512E38A48C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF4DD97-1256-4F8D-8BA5-512E38A48C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF4DD97-1256-4F8D-8BA5-512E38A48C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF4DD97-1256-4F8D-8BA5-512E38A48C83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDF4DD97-1256-4F8D-8BA5-512E38A48C83} = {DBF6AB6D-715E-48FA-B318-A9213BF75934}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {888B4693-91E2-47E7-9710-C27CEDB59988}
+	EndGlobalSection
+EndGlobal
